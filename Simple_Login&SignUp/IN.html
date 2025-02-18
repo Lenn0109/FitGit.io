@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="/Login1/csin/style.css">
+</head>
+<body>
+    
+    
+    <div class="main-container centered-flex">
+        <div class="form-container">
+            <!-- Icon -->
+            <div class="icon fa fa-user"></div>
+
+            <form action="" class="centered-flex">
+                <!-- Buat Text Main Login -->
+                <div class="title">LOGIN</div>
+                <div class="msg"></div>
+
+                <!-- Buat Input Username -->
+                <div class="field">
+                    <input type="text" placeholder="Username" id="uname">
+                    <!-- Icon -->
+                    <span class="fa fa-user"></span>
+                </div>
+                <!-- Buat Input PassWord -->
+                <div class="field">
+                    <input type="password" placeholder="password" id="pass">
+                    <!-- Icon -->
+                    <span class="fa fa-lock"></span>
+                </div>
+                <!-- Buat CheckBox Input -->
+                <div class="action centered-flex">
+                    <label for="remember" class="centered-flex">
+                        <input type="checkbox" id="remember">Remember Me</label>
+                        <a href="#"> Forget password ?</a>
+                </div>
+
+                <div class="btn-container">
+                    <input type="submit" id="login-btn" value="Login">
+                </div>
+                <div class="signup">Don't have an Account?<a href="/UP.html">SignUp</a></div>
+            </form>
+        </div>
+    </div>
+
+    <script src="/Login1/jsin/Main.js"></script>
+</body>
+</html>
